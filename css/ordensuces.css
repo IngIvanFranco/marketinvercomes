@@ -1,0 +1,97 @@
+.confir{
+margin-top: 115px;
+}
+
+.imggana{
+height: 40px;
+width: auto;
+margin-top: 50px;
+margin-bottom: 50px;
+
+}
+.imggana:hover{
+  
+    filter: blur(2px);
+    
+}
+
+
+.contpie{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+vertical-align: auto;
+}
+
+.imggana{
+    height: 40px;
+    width: auto;
+    
+    }
+
+.titu, .subtitu{
+    color: #F86613;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.titu:hover, .subtitu:hover{
+    color: #006623;
+}
+
+.parrafo{
+font-size: 1.5rem;
+margin-top: 25px;
+margin-bottom: 25px;
+text-align: center;
+
+text-transform: capitalize;
+}
+
+.parrafo:hover{
+    font-weight: bold;
+}
+
+
+.orderid{
+    text-transform: capitalize;
+    text-align: center;
+color: #542261;
+}
+
+.btn{
+background-color: #006623;
+color: white;
+padding: 6px;
+border-radius: 7px;
+margin-top: 50px;
+margin-bottom: 50px;
+font-style: italic;
+text-transform: capitalize;
+outline: none;
+height: 40px;
+}
+
+.btn:hover{
+    background-color: #F86613;
+    color: white;
+    
+}
+
+
+@media (max-width: 780px){
+
+
+    .confir{
+     
+      margin-top: 290px;
+     
+      
+    }
+  
+  
+  
+  }

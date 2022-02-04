@@ -1,0 +1,153 @@
+
+.titu{
+  margin-top: 45px;
+
+
+    color: #F86613;
+    text-align: center;
+    text-transform: capitalize;
+   font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.parrafo{
+ 
+    font-size: 1.5rem;
+    
+    margin-bottom: 35px;
+    text-align: center;
+    color: #542261;
+    text-transform: capitalize;
+    }
+
+  
+  
+
+    .btn{
+    cursor: pointer;
+      width: 200px;
+    margin: 50px auto;
+       padding: 10px;
+     border: none;
+     border-radius: 20px 20px 20px 20px;
+        background: #006623 ;
+          color:  white;
+          -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+          box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+          display: block;
+
+          }
+
+
+
+    .formulario{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+   position: relative;
+   background: white;
+   padding: 30px;
+   border-radius: 20px 20px 320px 20px;
+    
+    }
+
+    .formulario::after{
+      content: '';
+      width: 103%;
+      height: 106%;
+      position: absolute;
+      top: -3%;
+      left: -1.5%;
+      background: linear-gradient(to right, #542261, #F76A1A, #006623 );
+      z-index: -1;
+      border-radius: 20px 20px 320px 20px;
+      -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+      box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    }
+
+    .check{
+     
+      
+      outline: none;
+
+      
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+    .imgmetod{
+      width:  100px;
+      margin-left: 0px;
+      margin-right: 20px;
+      
+      
+    
+     
+
+    }
+
+    .bono{
+      display: none;
+      border: none;
+      border-bottom: #F86613 solid 2px;
+      width: 40%;
+     margin-left: 30%;
+     border-radius: 20px;
+      margin-top: 30px;
+        font-size: 0.5rem;
+       outline: none;
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+       
+        
+    }
+
+    .bono::placeholder{
+      text-align: center;
+      font-style: italic;
+      filter: none;
+    }
+
+    #domicilio:checked ~  .direccion{
+      display: block;
+    }
+
+
+    #metodopago5:checked ~  .bono{
+      display: block;
+
+    }
+
+    .nota{
+      text-align: center;
+      font-size: 1rem;
+      color: red;
+      margin: 50px auto;
+    }
+    /**************respoinsive ***********************/
+
+
+  
+    @media (max-width: 910px){
+
+  
+   
+
+         .titu{
+           margin-top: 180px;
+         }
+
+    
+    .formulario{
+      width: 90%;
+     
+     padding: 20px;
+     border-radius: 20px ;
+      
+      }
+  
+      .formulario::after{
+       border-radius: 20px;
+      }
+
+    }

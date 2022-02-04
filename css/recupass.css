@@ -1,0 +1,64 @@
+.formpass{
+width: 90%;
+max-width: 500px;
+margin: 50px auto;
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+-webkit-box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px #006623, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px #006623, 5px 5px 15px 5px rgba(0,0,0,0);
+
+
+}
+
+.inpass{
+    border-bottom: 1px solid #F86613;
+    background-color: rgb(255, 255, 255) ;
+    color: #006623;
+     outline: none;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+ width: 90%;
+    margin: 50px auto;
+    border-radius: 7px;
+    padding: 7px;
+    text-align: center;
+}
+
+.inpass::placeholder{
+    text-align: center;
+    font-style: italic;
+}
+
+
+.btn{
+    border-radius: 7px;
+   padding: 7px;
+    background-color: #006623;
+    color: #fff;
+    width: 150px;
+    font-size: 16px;
+   
+}
+
+.titurecpass{
+    font-size: 30px;
+    text-align: center;
+   color: #F86613;
+   margin-top: 50px;
+}
+
+
+@media (max-width: 910px) { 
+
+    .titurecpass{
+        margin-top: 180px;
+    }
+
+    .formpass{
+        margin-bottom: 150px;
+    }
+}

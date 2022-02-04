@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&family=Indie+Flower&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+
+    
+      /*------------------------------------------animaciones banner publicidad inicial-------------------------------*/
+      .bannerpublic{
+        margin-top: 115px;
+      }
+      
+      .contitu{
+    padding: 15px;
+      }
+       .txtanim{
+       
+    text-shadow: 1px 3px 0 #542261 ;
+       
+        margin: 0;
+     text-align: center;
+     color: white;
+    font-size: 2.3rem;
+      }
+      
+   
+
+      
+.banner1{
+  position: relative;
+  width: 80%;
+  height: 80px;
+  margin: auto;   
+  background: linear-gradient(to  right, #542261, #F76A1A, #006623 ) ;
+    background-size: 600% 400%;
+  border-radius: 320px 7px 320px 7px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border: solid 1px white;
+ 
+   
+  animation: bgmovil 15s ease infinite;
+}
+
+
+@keyframes bgmovil{
+0% {background-position: 0% 50%;}
+50%{background-position: 100% 50%;}
+100%{background-position: 0% 50% ;}
+}
+
+.banner1::after{
+  position: absolute;
+  bottom: -3%;
+  left: -0.5%;
+  content: '';
+  background: linear-gradient(to right, #542261, #F76A1A, #006623 );
+  width: 101%;
+  height: 101%; border-radius: 320px 7px 320px 7px;
+  z-index: -1;
+ 
+}
+  .bannerconte{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+
+  
+.titubanner{
+   
+    font-size: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    text-align: center;
+    
+    
+       
+    
+      }
+
+
+/*--------------------------------productos--------------------------------------*/
+
+
+.productos{
+  background: linear-gradient( to top, white, rgb(201, 201, 201));
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  border: 1px red solid;
+}
+
+
+.contenedorproductos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+
+}
+
+.cart{
+  width: 250px;
+  max-width: 90%;
+  background: white;
+  border-radius: 20px;
+  margin: 20px 5px ;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+
+}
+.contimgproduct{
+  position: relative;
+}
+
+
+.imgproduc{
+  width: 90%;
+
+margin-left: 5%;
+  height: 250px;
+  object-fit: contain;
+}
+
+
+.descuento{
+  position: absolute;
+  left: 3%;
+  top: 3%;
+  background: linear-gradient(to right, #542261, #F76A1A, #006623 );
+  background-size: 600% 400%;
+  animation: bgmovil 5s ease infinite;
+  padding: 5px;
+  color: white;
+  width: 28%;
+  border-radius: 20px;
+  font-size: 1rem;
+
+}
+
+
+.contendescrip{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+
+}
+
+.titupro{
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  background: linear-gradient(to right, #542261, #F76A1A, #006623 );
+  background-size: 600% 400%;
+  animation: bgmovil 20s ease infinite;
+  color:white;
+  padding: 8px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+
+
+}
+
+.stock{
+  text-align: center;
+  font-size: 11px;
+  margin-bottom: 10px;
+
+}
+
+
+.valor{
+
+font-size: 14px;
+text-align: center;
+color: #F76A1A;
+font-weight: bold;
+
+}
+
+
+.contcar{
+  margin: 20px auto;
+ width: 60px;
+ height: 60px;
+  background: linear-gradient(to right, #542261, #F76A1A, #006623 );
+
+padding: 3px;
+ border-radius: 50%;
+}
+
+.eds{
+  font-size: 1.5rem;
+  display: block;
+  height: 55px;
+color: #006623 ;
+text-align: center;
+background: white;
+padding: 15px;
+border-radius: 50%;
+
+}
+
+
+
+
+.subrayado{
+  text-decoration: line-through  red 2px;
+  font-style: italic;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+
+.btn_car{
+  display: block;
+color: white;
+
+background: linear-gradient(to right, #542261, #F76A1A, #006623 );
+padding: 10px;
+border-radius: 7px;
+text-align: center;
+margin: 20px auto;
+font-weight: bold;
+width: 80%;
+
+}
+
+
+
+
+.paginador{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pagesq{
+margin-right: 2px;
+margin-left: 2px;
+
+
+
+}
+
+
+
+.numpage{
+  margin-right: 2px;
+  margin-left: 2px;
+  border: solid 1.5px #F86613 ;
+  padding: 6px;
+  color: #F86613;
+
+  border-radius: 7px;
+  font-size: 1.5rem;
+  font-family: 'Barlow', sans-serif;
+
+}
+
+.numpage:hover{
+  
+  color: white;
+  background-color: #F86613;
+ 
+
+}
+
+.icon-right, .icon-left{
+padding: 10px;
+background-color: #F86613;
+color: white;
+text-align: center;
+font-size: 1.5rem;
+border-radius: 7px;
+}
+
+.icon-right:hover, .icon-left:hover{
+background-color: white;
+  color: #F86613 ;
+  }
+
+
+
+
+  @media (max-width: 910px) { 
+  
+  
+.banner1{
+ 
+    
+  margin-top: 200px;
+ 
+ 
+
+}
+
+
+.contenedorproductos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+  
+  }
+
+
+  @media (max-width: 700px) { 
+
+
+
+  
+  
+   .txtanim{
+   
+font-size: 1.3rem;
+  }
+  
+  .wisteria, .belize, .pomegranate, .green, .midnight {
+     
+      font-size: 1.3rem;
+  
+   
+  }
+
+  
+}

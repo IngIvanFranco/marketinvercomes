@@ -1,0 +1,130 @@
+.containerweb h2, .lin{
+    text-decoration: none;
+    color: #006623;
+    font-size: 1.2rem;
+  }
+  
+  .contenedor{
+    margin-top: 115px;
+  }
+  .lin:hover{
+    text-decoration: none;
+  background-color:  #F86613;
+  color: white;
+  padding: 7px;
+  border-radius: 7px;
+  
+  
+  }
+
+
+  .orden{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    
+    background-color: rgb(235, 235, 235);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    -webkit-box-shadow: 0px 10px 13px -7px #542261, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #542261, 5px 5px 15px 5px rgba(0,0,0,0);
+border-radius: 7px;
+  }
+
+  .orden h2{
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .ordenitem{
+    width: 30;
+   
+
+  }
+
+  .ordenitem img{
+    width:  100%;
+    max-width: 250px;
+    padding: 7px;
+    
+   
+  }
+
+  
+  .ordenitem a{
+    display: block;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #F86613;
+    color: white;
+    width: 100px;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .ordenitem p{
+    text-transform: capitalize;
+  }
+
+  .paginador{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+
+  }
+
+  .pagesq{
+
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: #542261;
+    color: white;
+    
+    margin-left: 3px;
+    margin-right: 3px;
+    
+  }
+
+  .numpage{
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 7px;
+    background-color: #542261;
+    color: white;
+    border-radius: 7px;
+
+  }
+
+
+  
+@media (max-width: 780px){
+.orden{
+  justify-content: center;
+}
+
+
+.contenedor{
+  margin-top: 335px;
+}
+
+  .ordenitem{
+    text-align: center;
+    width: 80%;
+    margin: 10px auto;
+    
+   
+
+  }
+
+
+  .containerweb h2, a{
+  text-align: center;
+  margin: 10px auto;
+  
+  }
+}

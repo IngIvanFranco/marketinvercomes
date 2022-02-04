@@ -1,0 +1,62 @@
+.contenedoricon{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 115px;
+    margin-bottom: 50px;
+    
+}
+
+.icon{
+    width: auto;
+    max-width: 200px;
+    text-align: center;
+    border: #115A2B 0.5px solid;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 10px 13px -7px #542261, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #542261, 5px 5px 15px 5px rgba(0,0,0,0);
+margin-top: 20px;
+margin-bottom: 20px;
+    
+
+}
+
+.contenedoricon h3{
+    color:#F86613 ;
+    margin-top:10px ;
+    text-transform: capitalize;
+}
+
+.contenedoricon img{
+    width: 150px;
+    height: 150px;
+}
+
+.contenedoricon p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.containerweb h2{
+    margin-top: 25px;
+    color: #115A2B;
+}
+
+
+@media (max-width: 780px){
+
+
+    .contenedoricon{
+     
+      margin-top: 290px;
+     
+      
+    }
+  
+  
+  
+  }

@@ -1,0 +1,105 @@
+
+footer{
+    background: #542261;
+    
+   
+}
+
+footer a{
+   text-decoration: none;
+  color: gray;
+  padding: 8px;
+      transition: all 1s;
+}
+
+footer li a:hover{
+    background: linear-gradient(to right, #542261, #F76A1A, #006623 );
+font-size: 1.5rem;
+padding: 10px;
+color: white;
+border: solid 1px white ;
+border-radius: 10px;
+
+}
+
+
+footer li{
+
+    list-style: none;
+    text-align: left;
+  
+}
+
+.contenfooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+.carta{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 30%;
+    text-align: center;
+   
+  
+}
+
+.carta h6{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.carta img{
+    width: 50%;
+}
+
+.carta p{
+    margin-top: 30px;
+    color: gray;
+    
+}
+.iconfooter{
+    font-size: 1.3rem;
+    color: rgb(100, 100, 100);
+ background-color: white;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 0 3px;
+   transition: all 1s;
+   
+}
+
+
+.spe{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.iconfooter:hover{
+    background: linear-gradient(to right, #542261, #F76A1A, #006623 );
+font-size: 2rem;
+padding: 15px;
+color: white;
+border-radius: 10px;
+border: solid 1px white ;
+}
+
+
+
+@media (max-width: 910px) { 
+  
+  
+.carta{
+    
+   width: 80%;
+text-align: justify;
+}
+
+.spe{
+    border: none;
+}
+      }

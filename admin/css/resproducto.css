@@ -1,0 +1,92 @@
+.titu{
+color: #542261;
+text-transform: capitalize;
+text-align: center;
+}
+
+form{
+  background: #eeeeee;
+    width: 98%;
+    max-width: 500px;
+    border: #542261 solid 1px;
+    margin: auto;
+    -webkit-box-shadow: 0px 10px 13px -7px #542261, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #542261, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+input, select, textarea{
+  background: #eeeeee;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #EE6218;
+    outline: none;
+    display: block;
+    margin: 25px auto;
+    font-size: 1rem;
+}
+
+input::placeholder, textarea::placeholder, select {
+    color: #b4b4b4;
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  select{
+    color: #474747;  
+  }
+  
+
+.btn {
+  margin-left: 120px;
+  background: #EE6218;
+  color: #fff;
+    text-decoration: none;
+    width: 20%;
+    height: 40px;
+    display: block;
+    border-radius: 20px;
+    transition: all .2s;
+    position: absolute;
+     border: none;
+    
+    
+}
+.btn:hover{
+background-color: #006623;
+}
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+    animation: moveInBottom 1.5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+#imagen{
+margin-left: 85px;
+border: none;
+text-align:center;
+  position: center;
+}

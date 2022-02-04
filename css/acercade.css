@@ -1,0 +1,31 @@
+.inver{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.somos{
+    width: 90%;
+    margin: auto;
+ 
+}
+
+.mision{
+    width: 45%;
+    
+}
+
+.vision{
+    width: 45%;
+    
+}
+
+p{
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+}

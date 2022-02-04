@@ -1,0 +1,103 @@
+.contenform{
+    margin: 200px auto;
+    width: 90%;
+    max-width: 400px;
+    border: #F86613 solid 3px;
+   
+    border-radius: 7px;
+   
+}
+
+.tituform{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: #F86613;
+   text-align: center;
+    text-transform: capitalize;
+
+}
+
+.inputlogin{
+
+width:80% ;
+margin-top: 25px;
+margin-bottom: 25px;
+margin-left:10%;
+border: none;
+border-bottom: 1px solid #F86613;
+border-radius: 20px;
+
+ padding: 10px;
+}
+
+
+
+
+.inputsubmit{
+    position: relative;
+margin: 25px auto;
+display: block;
+    width:200px ;
+  
+    border: none;
+    padding: 10px;
+    background-color: #006623;
+    border-radius: 20px;
+    text-align: center;
+     color:white ;
+     cursor: pointer;
+    }
+
+
+    
+input::placeholder {
+    color: #b4b4b4;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .iconlogin{
+      width: 100px;
+  display: block;
+  margin: 20px auto;
+
+  }
+
+  .contlink{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+  }
+
+  .linkfomr{
+      text-decoration: none;
+      color: #006623;
+      margin-bottom: 25px;
+     
+
+  }
+
+  .linkfomr:hover{
+      background-color: #F86613;
+      color: white;
+      padding: 3px;
+      border-radius: 7px;
+      text-decoration: none;
+  }
+
+  
+@media (max-width: 780px){
+
+
+    .contenform{
+     
+      margin-top: 340px;
+     
+      
+    }
+  
+  
+  
+  }

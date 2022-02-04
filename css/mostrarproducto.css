@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&family=Indie+Flower&display=swap');
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+  animation: myAnim 1s ease 0s 1 normal forwards;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+  background: #EDEDED;
+}
+
+
+
+
+.contitu{
+  padding: 15px;
+    }
+     .txtanim{
+     
+  text-shadow: 1px 3px 0 #542261 ;
+     
+      margin: 0;
+   text-align: center;
+   color: white;
+  font-size: 2.3rem;
+    }
+    
+ 
+
+    
+.banner1{
+position: relative;
+width: 80%;
+height: 80px;
+margin: auto;   
+background: linear-gradient(to  right, #542261, #F76A1A, #006623 ) ;
+  background-size: 600% 400%;
+border-radius: 320px 7px 320px 7px;
+margin-bottom: 50px;
+margin-top: 50px;
+border: solid 1px white;
+
+ 
+animation: bgmovil 15s ease infinite;
+}
+
+
+@keyframes bgmovil{
+0% {background-position: 0% 50%;}
+50%{background-position: 100% 50%;}
+100%{background-position: 0% 50% ;}
+}
+
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: translateX(-250px) rotate(-200deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+  .banner1::after{
+    position: absolute;
+    bottom: -3%;
+    left: -0.5%;
+    content: '';
+    background: linear-gradient(to right, #542261, #F76A1A, #006623 );
+    width: 101%;
+    height: 101%; border-radius: 320px 7px 320px 7px;
+    z-index: -1;
+   
+  }
+  .bannerconte{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+
+  .imgbanner{
+
+     overflow: hidden;
+     width: 100%;
+     height: auto;
+     border-radius: 7px;
+
+  }
+
+  
+.titubanner{
+   
+  font-size: 2rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  text-align: center;
+  
+  
+  
+  
+  
+  
+  
+    }
+  
+    /*------------------------------------------animaciones banner publicidad inicial-------------------------------*/
+  
+    
+    
+     .txtanim{
+     
+  text-shadow: 1px 3px 0 #542261 ;
+      vertical-align: top;
+      margin: 0;
+   text-align: center;
+   color: white;
+  font-size: 2.3rem;
+    }
+    
+      
+     
+
+
+    /***************************************carta del prodcuto*****************************************/
+.producview{
+  width: 100%;
+    height: auto;
+ 
+  margin: auto;
+
+margin-bottom: 50px;
+margin-top: 25px;
+border-radius: 7px;
+
+animation: myAnim2 1s ease 0s 1 normal forwards;
+
+
+}
+
+@keyframes myAnim2 {
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+    .contencarta{
+      width: 80%;
+      margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-color: white;
+border-radius: 20px;
+border: 1px solid    #cecece; ;
+position: relative;
+z-index: 1;
+padding: 15px;
+
+
+
+    }
+
+
+    .descartimg{
+      width: 70%;
+      padding: 10%;
+      background-color: white;
+      border-radius: 20px;
+      
+    }
+
+    .descartdatos{
+      width: 30%;
+      border: solid 0.2px #cecece;
+      background-color: white;
+      padding: 20px;
+      border-radius: 20px ;
+      z-index: -2;
+      
+    }
+    .descartdatos img{
+      height: 30px;
+      width: auto;
+      margin-top: 20px;
+    }
+
+    .descartdatos h2{
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .descartdatos h5{
+      font-size: 15px;
+      margin-top: 20px;
+    }
+
+    .descartdatos p{
+      margin-top: 20px ;
+      margin-bottom: 20px;
+      font-size: 40px;
+    }
+
+   
+
+    .icopse{
+      
+      width: 80px;
+    }
+
+    .imgproducto{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    
+.subrayado{
+  text-decoration: line-through  red 2px;
+  font-style: italic;
+
+ }
+
+ .stok{
+font-size: 18px;
+
+
+
+  font-family: 'Indie Flower', cursive;
+
+
+
+
+
+ }
+
+ .btnadd{
+   text-align: center;
+
+    position: relative;
+   padding: 30px;
+   font-size: 32px;
+  background: white;
+  border-radius: 50%;
+   width: 100px;
+   height: 100px;
+   color: #006623;
+   margin: 30px auto;
+
+  
+
+ }
+
+ .btnadd::after{
+content: '';
+   position: absolute;
+   background: linear-gradient(to right, #542261, #F76A1A, #006623 );
+  width: 104%;
+height: 110%;
+   top: -5%;
+   left: -2%;
+   z-index: -1;
+   border-radius: 50%;
+   
+   
+ }
+
+ .btncoti{
+  text-align: center;
+
+  position: relative;
+ padding: 7px;
+ font-size: 26px;
+background: white;
+font-weight: bold;
+ color: #006623;
+ margin: 30px auto;
+ border-radius: 20px 20px 320px 20px;
+
+ }
+
+ .btncoti::after{
+   
+content: '';
+position: absolute;
+background: linear-gradient(to right, #542261, #F76A1A, #006623 );
+width: 104%;
+height: 110%;
+top: -5%;
+left: -2%;
+z-index: -1;
+border-radius: 20px 20px 320px 20px;
+
+ }
+
+ .contdescripprodu{
+  border: solid 1px #cecece;
+      background-color: white;
+    border-radius:   20px ;
+   padding: 20px;
+   margin-top: 20px;
+   width: 100%;
+ }
+
+ .contdescripprodu h3{
+
+  margin-bottom: 22px;
+  font-size: 22px;
+
+ }
+
+ .contdescripprodu i{
+   font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+
+ }
+
+/**********************************************productos relacionados****************************/
+
+.masproduc h2{
+
+text-align: center;
+color: #F86613;
+text-transform: capitalize;
+
+}
+
+
+.contenedorproductos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  z-index: 1;
+}
+
+.cartap{
+  width: 90%;
+  max-width: 180px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: solid 1px #cecece;
+  background: white;
+  z-index: -10;
+
+}
+
+.contenimg{
+  position: relative;
+  width: 80%;
+  margin: auto;
+  
+}
+      
+
+.contenimg img{
+  object-fit: contain;
+  width: 144px;
+  height: 144px;
+  margin: auto;
+  transition: all 1.2s;
+
+}
+
+
+.contenimg img:hover{
+ 
+  width: 110%;
+  margin-left: -10%;
+  
+ 
+}
+
+.descuento{
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  background-color: #542261;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+.contdescrip{
+width: 80%;
+margin: auto;
+}
+
+.titupro{
+color: #F86613;
+text-transform: uppercase;
+font-size: 14px;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.valorantes{
+
+  text-decoration:  line-through;
+  color: red;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.specialbtn{
+  width: 80%;
+}
+
+.valor{
+  margin-top: 10px;
+margin-bottom: 10px;
+}
+ 
+
+.Contenedor_btncar{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+
+  position: relative;
+ padding: 7px;
+ font-size: px;
+background: white;
+font-weight: bold;
+cursor: pointer;
+ margin: 30px auto;
+ border-radius: 20px 20px 320px 20px;
+}
+
+.Contenedor_btncar::after{
+
+  content: '';
+  position: absolute;
+  background: linear-gradient(to right, #542261, #F76A1A, #006623 );
+  width: 104%;
+  height: 110%;
+  top: -5%;
+  left: -2%;
+  z-index: -1;
+  border-radius: 20px 20px 320px 20px;
+}
+
+.Contenedor_btncar a{
+  position: relative;
+  color: #006623;
+  text-decoration: none;
+
+}
+
+ 
+@media (max-width: 910px){
+
+  
+  .banner1{
+   
+    margin-top: 180px;
+   
+  }
+.descartdatos{
+  width: 100%;
+  margin: auto;
+}
+
+.descartimg{
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 20px ;
+  border: 1px solid #cecece;
+}
+} 
+
+
+/****************************celulares responsive*****************************/
+
+
+@media (max-width: 635px){
+
+
+
+    /***************************************carta del prodcuto*****************************************/
+   
+
+
+  
+  
+  
+  /*************************************banner *******************************/
+  
+  
+  .banner1{
+   
+    height: 100px;
+   
+  
+  }
+  
+  .txtanim{
+       
+    text-shadow: 1px 3px 0 #542261 ;
+        vertical-align: top;
+        margin: 0;
+     text-align: center;
+     color: white;
+    font-size: 1.5rem;
+      }
+      
+    
+    
+  
+  
+  
+  }
+
+  
+/**********************smartphone************************************/
+
+@media (max-width: 420px){
+
+
+  /**************************overhead*******************************/
+  
+  
+  
+  
+  
+  .ecommerce{
+    
+    font-size: 0.5rem;
+     border-radius: 7px;
+     
+     
+    
+   
+   }
+   
+   
+   .linkoverhead{
+     display: none;
+     
+   }
+   
+   
+   .titudtemp{
+     text-decoration: none;
+     color: white;
+     font-size: 0.5rem;
+     display: block;
+     padding: 6px;
+     
+    
+   }
+  
+  
+  
+    .banner1{
+   
+      height: 80px;
+     
+    
+    }
+    
+    .txtanim{
+         
+      text-shadow: 1px 3px 0 #542261 ;
+          vertical-align: top;
+          margin: 0;
+       text-align: center;
+       color: white;
+      font-size: 1rem;
+        }
+
+      }
+
+      @media (max-width: 350px){
+
+
+
+        /***************************************carta del prodcuto*****************************************/
+       
+        
+      }
+    
+    

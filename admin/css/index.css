@@ -1,0 +1,33 @@
+.contenedor{
+    width: 80%;
+    margin: auto;
+      overflow: hidden;
+    
+   
+}
+
+.contitu{
+width: 90%;
+margin: auto;
+border: 0.5px solid #542261;
+vertical-align: auto;
+border-radius: 7px;
+
+}
+
+.contitu h2{
+    text-align: center;
+    color: #542261;
+    text-transform: capitalize;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    
+   
+
+    overflow: hidden;
+}
